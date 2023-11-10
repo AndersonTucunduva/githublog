@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Slogan() {
   return (
     <>
-      <div className="flex h-[212] max-w-[864] items-center justify-center p-10">
+      <div className="flex h-[212] max-w-4xl items-center justify-center p-10">
         <Image src={'/avatar.png'} width={148} height={148} alt="" />
         <div>
           <div className="ml-8 flex justify-between">
