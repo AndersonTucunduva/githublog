@@ -4,7 +4,14 @@ export default function Header() {
   return (
     <>
       <div>
-        <Image src={'/Cover.png'} width={1280} height={296} alt="" priority />
+        <Image
+          src={'/Cover.png'}
+          width={1920}
+          height={296}
+          alt=""
+          priority
+          className="lg:scale-100"
+        />
       </div>
     </>
   )
